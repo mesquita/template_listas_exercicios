@@ -37,5 +37,5 @@ Para itens dos exercícios (para serem usados dentro dos ambientes de exercício
     \end{homeworkSection}
 
 #### Exemplo de uso
-O repositório conta com um .pdf em que é possível ver um exemplo de uso. [template_listas.pdf](https://github.com/mesquita/template_listas_exercicios/blob/master/template_listas.pdf "template_listas.pdf")
+O repositório conta com um .pdf em que é possível ver um exemplo de uso. Em: [template_listas.pdf](https://github.com/mesquita/template_listas_exercicios/blob/master/template_listas.pdf "template_listas.pdf")
 
