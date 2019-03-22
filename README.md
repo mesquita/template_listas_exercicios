@@ -1,7 +1,7 @@
 
 # Template para listas de exercícios
 
-Créditos a [Ted Pavlic](http://www.tedpavlic.com) pela primeira versão deste template. Créditos também ao [Roberto](https://github.com/robertomest) pela versão em português e por outros ajustes para que esta versão fosse possível. 
+Créditos a [Ted Pavlic](http://www.tedpavlic.com) pela primeira versão deste template. Créditos também ao [Roberto](https://github.com/robertomest) pela versão em português e por outros ajustes para que esta versão fosse possível. Também agradeço ao Gabriel pela ajuda com o bug do número das questoes no header.
 
 Este é um template simples criado para listas de exercícios.
 
