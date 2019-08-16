@@ -21,6 +21,7 @@
 \usepackage{amssymb}
 \usepackage{epstopdf}
 \usepackage{subcaption}
+\usepackage{mathtools}
 
 % Margins
 \topmargin=-0.45in
