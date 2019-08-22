@@ -12,6 +12,7 @@
 \usepackage{lastpage} % Required to determine the last page for the footer
 \usepackage{extramarks} % Required for headers and footers
 \usepackage[usenames,dvipsnames]{color} % Required for custom colors
+\usepackage{subfig}
 \usepackage{graphicx} % Required to insert images
 \usepackage{listings} % Required for insertion of code
 \usepackage{courier} % Required for the courier font
@@ -20,8 +21,7 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{epstopdf}
-\usepackage{subcaption}
-\usepackage{mathtools}
+%\usepackage{subcaption}
 
 % Margins
 \topmargin=-0.45in
@@ -110,7 +110,7 @@
 \newcommand{\exitProblemHeader}[1]{
 	\nobreak\extramarks{#1 (continuação)}{#1 continua na próxima página\ldots}\nobreak
 	
-	
+	\renewcommand{\homeworkProblemName}{#1}
 	\addtocounter{homeworkProblemCounter}{1}
 	\nobreak\extramarks{Questão \arabic{homeworkProblemCounter}}{}\nobreak
 	\addtocounter{homeworkProblemCounter}{-1}
@@ -144,8 +144,8 @@
 %}
 
 
-\newcommand{\problemAnswer}[1]{ % Defines the problem answer command with the content as the only argument
-	\noindent\framebox[\columnwidth][c]{\begin{minipage}{0.98\columnwidth}#1\end{minipage}} % Makes the box around the problem answer and puts the content inside
+\newcommand{\problemAnswer}[3]{ % Defines the problem answer command with the content as the only argument
+	\noindent\framebox[#1\columnwidth][l]{\begin{minipage}{#2\columnwidth}#3\end{minipage}} % Makes the box around the problem answer and puts the content inside
 }
 
 \newcommand{\homeworkSectionName}{}
@@ -193,7 +193,7 @@
 \let\hmwkClassInstructor\sethmwkClassInstructor %
 \newcommand{\show@hmwkClassInstructor}{\@hmwkClassInstructor}
 
- % Your name
+% Your name
 \global\let\@hmwkAuthorName\@empty
 \newcommand{\sethmwkAuthorName}[1]{\def\@hmwkAuthorName{#1}}
 \let\hmwkAuthorName\sethmwkAuthorName %
